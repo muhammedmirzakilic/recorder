@@ -1,0 +1,13 @@
+{
+  "name": "recorder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/muhammedmirzakilic/recorder.git",
+  "author": "Mirza <muhammedmirzakilic@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^11.0.0",
+    "express": "^4.17.2"
+  }
+}
