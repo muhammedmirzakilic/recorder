@@ -1,7 +1,7 @@
 # Record API
 
 Record filter api
-Deployed on [heroku](https://records.herokuapp.com/)
+Deployed on [heroku](https://recorder-api.herokuapp.com/)
 
 ## Prerequisites
 
@@ -12,7 +12,7 @@ You need to install [node.js](https://nodejs.org) to your machine to be able to 
 Clone project
 
 ```
-    git clone https://github.com/muhammedmirzakilic/recorder.git
+git clone https://github.com/muhammedmirzakilic/recorder.git
 ```
 
 Go to directory and install dependencies via npm/yarn
