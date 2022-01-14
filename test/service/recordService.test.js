@@ -1,5 +1,7 @@
 const DB = require("../../src/data");
-const { getRecords } = require("../../src/services/recordService");
+const {
+  recordService: { getRecords },
+} = require("../../src/services");
 
 describe("When there is no data", () => {
   beforeAll(() => {

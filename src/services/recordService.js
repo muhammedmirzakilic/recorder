@@ -1,4 +1,3 @@
-const Records = require("../data/mongo/models/record");
 const DB = require("../data");
 /**
  *
