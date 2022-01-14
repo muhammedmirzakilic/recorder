@@ -1,7 +1,6 @@
 # Record API
 
-Record filter api
-Deployed on [heroku](https://recorder-api.herokuapp.com/)
+Record filter api deployed on [heroku](https://recorder-api.herokuapp.com/)
 
 ## Prerequisites
 
@@ -67,14 +66,14 @@ yarn test
 
 #### Response Parameters
 
-|                Name |  Type  | Description                                                                                                                        |
-| ------------------: | :----: | ---------------------------------------------------------------------------------------------------------------------------------- |
-|              `code` | Number | Request resul code <br/> Supported values <br/> 0 -> Success <br/> 1000 -> Unexcepted Error <br/> 1001-1005 -> Request body errors |
-|               `msg` |  Date  | Description of `code`                                                                                                              |
-|           `records` | Array  | `record` Array                                                                                                                     |
-|  `record.createdAt` |  Date  | Creation date of record                                                                                                            |
-|        `record.key` | string | Record key                                                                                                                         |
-| `record.totalCount` | Number | Sum of count array of record                                                                                                       |
+|                Name |  Type  | Description                                                                                                                 |
+| ------------------: | :----: | --------------------------------------------------------------------------------------------------------------------------- |
+|              `code` | Number | Request resul code <br/> Supported values <br/> 0 -> Success <br/> 1 -> Unexcepted Error <br/> 2 - ∞ -> Request body errors |
+|               `msg` | string | Description of `code`                                                                                                       |
+|           `records` | Array  | `record` Array                                                                                                              |
+|  `record.createdAt` |  Date  | Creation date of record                                                                                                     |
+|        `record.key` | string | Record key                                                                                                                  |
+| `record.totalCount` | Number | Sum of count array of record                                                                                                |
 
 #### Response Body
 
